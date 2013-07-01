@@ -23,6 +23,9 @@
 		1A91F401178127BC0027BE97 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F400178127BC0027BE97 /* SecondViewController.m */; };
 		1A91F403178127BC0027BE97 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F402178127BC0027BE97 /* second.png */; };
 		1A91F405178127BC0027BE97 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91F404178127BC0027BE97 /* second@2x.png */; };
+		1A91F40D178129FC0027BE97 /* TweetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F40C178129FC0027BE97 /* TweetsViewController.m */; };
+		1A91F410178135620027BE97 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F40F178135620027BE97 /* Tweet.m */; };
+		1A91F41317813E5B0027BE97 /* TweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A91F41217813E5B0027BE97 /* TweetCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,12 @@
 		1A91F400178127BC0027BE97 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1A91F402178127BC0027BE97 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		1A91F404178127BC0027BE97 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		1A91F40B178129FC0027BE97 /* TweetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsViewController.h; sourceTree = "<group>"; };
+		1A91F40C178129FC0027BE97 /* TweetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsViewController.m; sourceTree = "<group>"; };
+		1A91F40E178135620027BE97 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		1A91F40F178135620027BE97 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		1A91F41117813E5B0027BE97 /* TweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCell.h; sourceTree = "<group>"; };
+		1A91F41217813E5B0027BE97 /* TweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +106,14 @@
 				1A91F3EC178127BC0027BE97 /* AppDelegate.h */,
 				1A91F3ED178127BC0027BE97 /* AppDelegate.m */,
 				1A91F3F5178127BC0027BE97 /* MainStoryboard.storyboard */,
+				1A91F41117813E5B0027BE97 /* TweetCell.h */,
+				1A91F41217813E5B0027BE97 /* TweetCell.m */,
 				1A91F3F8178127BC0027BE97 /* FirstViewController.h */,
 				1A91F3F9178127BC0027BE97 /* FirstViewController.m */,
+				1A91F40B178129FC0027BE97 /* TweetsViewController.h */,
+				1A91F40C178129FC0027BE97 /* TweetsViewController.m */,
+				1A91F40E178135620027BE97 /* Tweet.h */,
+				1A91F40F178135620027BE97 /* Tweet.m */,
 				1A91F3FB178127BC0027BE97 /* first.png */,
 				1A91F3FD178127BC0027BE97 /* first@2x.png */,
 				1A91F3FF178127BC0027BE97 /* SecondViewController.h */,
@@ -198,6 +213,9 @@
 				1A91F3EE178127BC0027BE97 /* AppDelegate.m in Sources */,
 				1A91F3FA178127BC0027BE97 /* FirstViewController.m in Sources */,
 				1A91F401178127BC0027BE97 /* SecondViewController.m in Sources */,
+				1A91F40D178129FC0027BE97 /* TweetsViewController.m in Sources */,
+				1A91F410178135620027BE97 /* Tweet.m in Sources */,
+				1A91F41317813E5B0027BE97 /* TweetCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
